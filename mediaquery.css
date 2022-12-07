@@ -1,0 +1,64 @@
+@media screen and (max-width: 1280px){
+    .titulo{
+        margin: 300px;
+    }
+
+    .contenido1{
+        float: right;
+        margin-right: 200px;
+        margin-top: 100px;
+    }
+
+    .contenido2{
+        margin-top: 10px;
+        align-self: center;
+    }
+
+    #sobrespnav .contenido3{
+        margin-top: 10px;
+        float: right;
+        margin-right: 200px;
+    }
+
+    .tav{
+        float: right;
+        margin-right: 300px;
+    }
+
+    .vat{
+        float: right;
+        margin-top: 10px;
+        margin-right: 300px;
+    }
+
+    .descargas h1{
+        color: black;
+        float: right;
+        text-align: center;
+        margin-top: 10px;
+        margin-right: -100px;
+    }
+
+    #descargasnav{
+        margin-top: 300px;
+        float: right;
+        margin-right: 400px;
+    }
+
+    .descargas .link{
+        margin: 10px;
+        margin-left: 500px;
+    }
+
+    #contactosnav{
+        height: 200px;
+        float: inline-end;
+    }
+    
+    footer{
+        float: right;
+        width: 100%;
+        height: max-content;
+        margin-bottom: -100px;
+    }
+}

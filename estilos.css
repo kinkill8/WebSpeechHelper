@@ -1,0 +1,344 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: lightgray;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 85vh;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.menu h2{
+    margin: 0px;
+    font-size: 40px;
+}
+
+.navegacion-principal{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navegacion-principal .nav-link{
+    color: white;
+    align-items: center;
+    gap: 50px;
+    text-decoration: none;
+}
+
+.navegacion-principal .nav-link:hover{
+    color: black;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.titulo h1{
+    font-size: 75px;
+    letter-spacing: 15px;
+    color: black;
+    font-weight: 400;
+}
+
+.texto p{
+    font-size: 24px;
+    margin: 0px;
+    letter-spacing: 5px;
+    color: black;
+}
+
+.tipeado{
+    width: 430px;
+    animation: typing 2.5s steps(27) infinite alternate, blink .5s infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid black;
+    font-family: monospace;
+}
+
+.tav h1{
+    color: black;
+}
+
+.tav{
+    margin-top: 400px;
+    margin-left: 400px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vat{
+    float: right;
+    margin-top: -390px;
+    margin-right: 400px;
+}
+
+.vat h1{
+    color: black;
+}
+
+textarea{
+    width: 400px;
+    height: 200px;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+}
+
+#wave{
+    position:fixed;
+    z-index: -1;
+    height: 58vh;
+    margin-left: -1600px;
+    animation: animacionOnda 15s linear infinite alternate;
+    overflow-x: hidden;
+}
+
+@keyframes animacionOnda{
+    from{
+        margin-left: 0px;
+    }
+}
+
+
+
+.contenido1{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: 600px;
+    text-align: justify;
+    margin: 50px;
+    float: left;
+    margin-left: 200px;
+    margin-top: -300px;
+
+}
+
+.contenido2{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: 600px;
+    text-align: justify;
+    margin: 50px;
+    float: right;
+    margin-right: 200px;
+    margin-top: -300px;
+}
+
+#sobrespnav .contenido3{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: 600px;
+    text-align: justify;
+    margin: 50px;
+    margin-top: 350px;
+    margin-left: 640px;
+}
+
+footer{
+    background-color:rgba(10, 62, 107, 0.507);
+    height: 200px;
+}
+
+.contactos{
+    display: grid;
+    margin: 100px;
+    width: 250px;
+}
+
+.contactos a{
+    text-decoration: none;
+    color: white;
+}
+
+.contactos a:hover{
+    color: black;
+}
+
+.descargas .link{
+    border-radius: 10px;
+}
+
+.link {
+    margin: 30px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 80px;
+	background: #141414;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: .3s ease all;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+    margin-left: 180px;
+}
+
+.descargas a{
+    text-decoration: none;
+}
+
+.descargas h1{
+    color: black;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.link span {
+	position: relative;
+	z-index: 2;
+	transition: .3s ease all;
+    text-decoration: none;
+}
+
+.link::after {
+	content: "";
+	width: 1px;
+	height: 1px;
+	background: none;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	transition: .3s ease-in-out all;
+	border-radius: 100px;
+	transform-origin: center;
+}
+
+.link:hover::after {
+	transform: scale(400);
+	background: #cc1010;
+}
+
+.tav button {
+    margin: 30px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 50px;
+	background: #141414;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: .3s ease all;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+    margin-left: 140px;
+    margin-top: 0px;
+}
+
+
+.tav button::after {
+	content: "";
+	width: 1px;
+	height: 1px;
+	background: none;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	transition: .3s ease-in-out all;
+	border-radius: 100px;
+	transform-origin: center;
+}
+
+.tav button:hover::after {
+	transform: scale(400);
+	background: #cc1010;
+}
+
+.tav span {
+	position: relative;
+	z-index: 2;
+	transition: .3s ease all;
+    text-decoration: none;
+}
+
+.vat button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 50px;
+	background: #141414;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: .3s ease all;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+    margin-top: 0px;
+    margin-inline: 50px;
+}
+
+
+.vat button::after {
+	content: "";
+	width: 1px;
+	height: 1px;
+	background: none;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	transition: .3s ease-in-out all;
+	border-radius: 100px;
+	transform-origin: center;
+}
+
+.vat button:hover::after {
+	transform: scale(400);
+	background: #cc1010;
+}
+
+.vat span {
+	position: relative;
+	z-index: 2;
+	transition: .3s ease all;
+    text-decoration: none;
+}

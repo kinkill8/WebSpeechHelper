@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" type="text/css" href="mediaquery.css">
+    <title>Speech Helper</title>
+</head>
+<body>
+        <header>
+                <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 200" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(62, 179, 243, 1)" offset="0%"></stop><stop stop-color="rgba(96.547, 134.212, 255, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,120L48,120C96,120,192,120,288,106.7C384,93,480,67,576,50C672,33,768,27,864,30C960,33,1056,47,1152,66.7C1248,87,1344,113,1440,126.7C1536,140,1632,140,1728,133.3C1824,127,1920,113,2016,90C2112,67,2208,33,2304,30C2400,27,2496,53,2592,66.7C2688,80,2784,80,2880,90C2976,100,3072,120,3168,116.7C3264,113,3360,87,3456,90C3552,93,3648,127,3744,120C3840,113,3936,67,4032,43.3C4128,20,4224,20,4320,46.7C4416,73,4512,127,4608,133.3C4704,140,4800,100,4896,86.7C4992,73,5088,87,5184,96.7C5280,107,5376,113,5472,116.7C5568,120,5664,120,5760,120C5856,120,5952,120,6048,126.7C6144,133,6240,147,6336,133.3C6432,120,6528,80,6624,60C6720,40,6816,40,6864,40L6912,40L6912,200L6864,200C6816,200,6720,200,6624,200C6528,200,6432,200,6336,200C6240,200,6144,200,6048,200C5952,200,5856,200,5760,200C5664,200,5568,200,5472,200C5376,200,5280,200,5184,200C5088,200,4992,200,4896,200C4800,200,4704,200,4608,200C4512,200,4416,200,4320,200C4224,200,4128,200,4032,200C3936,200,3840,200,3744,200C3648,200,3552,200,3456,200C3360,200,3264,200,3168,200C3072,200,2976,200,2880,200C2784,200,2688,200,2592,200C2496,200,2400,200,2304,200C2208,200,2112,200,2016,200C1920,200,1824,200,1728,200C1632,200,1536,200,1440,200C1344,200,1248,200,1152,200C1056,200,960,200,864,200C768,200,672,200,576,200C480,200,384,200,288,200C192,200,96,200,48,200L0,200Z"></path><defs><linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(62, 179, 243, 1)" offset="0%"></stop><stop stop-color="rgba(145.99, 170.355, 248.49, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 50px); opacity:0.9" fill="url(#sw-gradient-1)" d="M0,40L48,33.3C96,27,192,13,288,16.7C384,20,480,40,576,63.3C672,87,768,113,864,116.7C960,120,1056,100,1152,83.3C1248,67,1344,53,1440,70C1536,87,1632,133,1728,146.7C1824,160,1920,140,2016,116.7C2112,93,2208,67,2304,70C2400,73,2496,107,2592,106.7C2688,107,2784,73,2880,66.7C2976,60,3072,80,3168,96.7C3264,113,3360,127,3456,133.3C3552,140,3648,140,3744,143.3C3840,147,3936,153,4032,146.7C4128,140,4224,120,4320,110C4416,100,4512,100,4608,93.3C4704,87,4800,73,4896,73.3C4992,73,5088,87,5184,93.3C5280,100,5376,100,5472,103.3C5568,107,5664,113,5760,106.7C5856,100,5952,80,6048,86.7C6144,93,6240,127,6336,130C6432,133,6528,107,6624,83.3C6720,60,6816,40,6864,30L6912,20L6912,200L6864,200C6816,200,6720,200,6624,200C6528,200,6432,200,6336,200C6240,200,6144,200,6048,200C5952,200,5856,200,5760,200C5664,200,5568,200,5472,200C5376,200,5280,200,5184,200C5088,200,4992,200,4896,200C4800,200,4704,200,4608,200C4512,200,4416,200,4320,200C4224,200,4128,200,4032,200C3936,200,3840,200,3744,200C3648,200,3552,200,3456,200C3360,200,3264,200,3168,200C3072,200,2976,200,2880,200C2784,200,2688,200,2592,200C2496,200,2400,200,2304,200C2208,200,2112,200,2016,200C1920,200,1824,200,1728,200C1632,200,1536,200,1440,200C1344,200,1248,200,1152,200C1056,200,960,200,864,200C768,200,672,200,576,200C480,200,384,200,288,200C192,200,96,200,48,200L0,200Z"></path></svg>
+
+            <div class="menu">
+
+                <h2>Speech Helper</h2>
+
+                <nav class="navegacion-principal">
+                    <a href="" class="nav-link">Inicio</a>
+                    <a href="#navegaciontav" class="nav-link">Prueba Nuestro Sistema</a>
+                    <a href="#sobrespnav" class="nav-link">Sobre Speech Helper</a>
+                    <a href="#descargasnav" class="nav-link">Enlaces</a>
+                    <a href="#contactosnav" class="nav-link">Contacto</a>
+                </nav>
+            </div>
+            <div class="titulo">
+                <h1>Sistema de Interpretacion</h1>
+                <div class="texto tipeado">
+                    <p>Generando Conciencia</p>
+                </div>
+            </div>
+        </header>
+        <div id="sobrespnav">
+            <div class="contenido1">
+                <p>Speech Helper comenzó  como una  idea para poder facilitar la inserción al mundo laboral de las personas sordo mudas, ya que estas no se pueden desenvolver de manera efectiva  en cargos donde se deba estar en constante comunicación con los clientes, y después de mucho trabajo arduo se logró llevar a cabo esta idea para dar un ambiente laboral a todas las personas sordo mudas que deseen trabajar en los puestos de trabajo anteriormente mencionados, 
+                    eliminando de esta manera la discriminación que se tenía a las personas que tenían estas condiciones.</p>
+            </div>
+            <div class="contenido2">
+                <p>Speech Helper es una aplicación que permite la escritura de un texto el cual es leído por la computadora en la cual se encuentra instalada, esto para poder facilitar la comunicación entre el trabajador mudo y un cliente, 
+                    pero también se puede implementar en otras áreas que no sean las áreas de trabajo, eso quedara a libre elección del poseedor del programa y para lo que desee utilizarlo.</p>
+            </div>
+            <div class="contenido3">
+                <p>Speech Helper también cuenta con un reconocedor de voz, la voz será reconocida por el micrófono por defecto que esté conectado a la computadora, esto para facilitar la comunicación entre el trabajador sordo y el cliente, 
+                    este apartado de la aplicación también se puede implementar en otros ambientes que no sean laborales, como anteriormente se mencionó eso quedara a libre elección del poseedor del programa y para lo que desee utilizarlo.</p>
+            </div>
+        </div>
+
+        <div id="navegaciontav">
+            <div class="tav">
+                <h1>Texto a Voz</h1>
+	
+	            <label for="voces">Selecciona la voz:</label>
+                <br>
+                <select id="voces">
+		        </select>
+		        <br>
+		        <br>
+		        Escribe tu mensaje:<br>
+		        <textarea id="mensaje" cols="30" rows="5"></textarea>
+		        <br><br>
+		        <button id="btnEscuchar"><span>Leer</span></button>
+                <script src="script.js"></script>
+            </div>
+        </div>
+
+        <div class="vat">
+            <h1>Voz a Texto</h1>
+            <textarea id="textoG" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <button id="btngrabar"><span>Empezar a Grabar</span></button>
+            <button id="btndetener"><span>Detener Grabacion</span></button>
+            <script src="script2.js"></script>
+        </div>
+        <div id="descargasnav">
+            <div class="descargas">
+                <h1>Nuestros Links de Descarga</h1>
+                <a href="https://www.mediafire.com/file/d9pohlm8ncpi894/Speech_Helper.rar/file"><button class="link"><span>Speech Helper Para Escritorio</span></button></a>
+                <a href="https://github.com/kinkill8/Speech-Helper.git"><button class="link"><span>Repositorio GitHub</span></button></a>
+                <a href="https://www.mediafire.com/file/22w2jxq989utxyw/manual_de_usuario_Speech_Helper.pdf/file"><button class="link"><span>Manual de Usuario</span></button></a>
+                <a href="https://www.mediafire.com/file/zvrgqaz56fjwah3/video_de_capacitacion_Speech_Helper.mp4/file"><button class="link"><span>Video de Capacitacion</span></button></a>
+            </div>
+        </div>
+    
+        <footer>
+            <div id="contactosnav">
+                <div class="contactos">
+                    <h2>Puedes Encontrarnos En:</h2>
+                    <a href="https://www.instagram.com/speech_helper/" class="nav-link">Instagram</a>
+                    <a href="https://www.facebook.com/profile.php?id=100088147731101" class="nav-link">Facebook</a>
+                    <a href="https://twitter.com/Speech_Helper" class="nav-link">Twitter</a>
+                    <a href="" class="nav-link">Contacto</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
